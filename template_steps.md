@@ -13,7 +13,7 @@ wget <cloud-image-url>.img
 # resize optional
 qm importdisk <VMID> <img-file> local-lvm
 qm set <template_id> --serial0 socket --vga serial0
-
+```
 4. **Finishing touches**
     - Hardware -> Unused disk. Edit and add it
     - In options, disable network device and enable scsi device
